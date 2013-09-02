@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "syncing..."
+rsync -v -cr --delete-after --cvs-exclude --exclude=logs --exclude=vendor --exclude=*.phar --exclude=\*.swp --exclude=.git --exclude=.DS_Store --include=*.exe --include=tags --chmod=Dg+s /Users/pirqureshi/git/colourbox/ root@pir.colourbox.com:/var/www/colourit
+ssh root@pir.colourbox.com "chown -R www-data:www-data /var/www/colourit"
