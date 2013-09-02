@@ -3,4 +3,4 @@ scc
 
 Self Credit Check
 
-Pir ARQ
+Pir ARQu
