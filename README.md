@@ -3,4 +3,4 @@ scc
 
 Self Credit Check
 
-Pir ARQu
+Pir AR Qureshi
